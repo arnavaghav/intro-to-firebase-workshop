@@ -8,13 +8,14 @@ import { getDatabase, ref, set, onValue } from "firebase/database";
 import { getAuth, signInWithPopup, GoogleAuthProvider, setPersistence, browserLocalPersistence } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBBtqN_nuT3_6fT1m0nOSgB8IIVXGZhzm4",
-  authDomain: "chatapp-test-6671b.firebaseapp.com",
-  projectId: "chatapp-test-6671b",
-  storageBucket: "chatapp-test-6671b.appspot.com",
-  messagingSenderId: "724610443073",
-  appId: "1:724610443073:web:d6b05cc72eba20a5da23c0",
-  measurementId: "G-57LLYEVXEG"
+  apiKey: "AIzaSyCGpJKxA2OAQAgy4Ne9qoQLpRtzRp9TkK0",
+  authDomain: "testing-6bc30.firebaseapp.com",
+  databaseURL: "https://testing-6bc30-default-rtdb.firebaseio.com",
+  projectId: "testing-6bc30",
+  storageBucket: "testing-6bc30.appspot.com",
+  messagingSenderId: "831744240074",
+  appId: "1:831744240074:web:74636c7e095fee9661c733",
+  measurementId: "G-NEYWNK4D27"
 };
 
 // Initialize Firebase
